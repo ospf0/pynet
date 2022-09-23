@@ -29,5 +29,5 @@ for line in show_vlan.splitlines():
     vlan_list.append((vlan_id, vlan_name))
 
 print()
-pprint(vlan_list)
+print(vlan_list)
 print()
